@@ -1,6 +1,6 @@
-/* =========================================
+/* 
    1. VARIABLES & RESET
-   ========================================= */
+ */
 :root {
     --primary: #ff4081;
     --primary-dark: #e73370;
@@ -34,9 +34,9 @@ body {
     margin: auto;
 }
 
-/* =========================================
+/* 
    2. HEADER
-   ========================================= */
+ */
 header {
     background: var(--white);
     position: fixed;
@@ -89,9 +89,9 @@ header {
     color: var(--primary);
 }
 
-/* =========================================
+/* 
    3. BURGER MENU (FIXED)
-   ========================================= */
+*/
 .burger {
     display: none; /* hidden on desktop */
     flex-direction: column;
@@ -106,9 +106,9 @@ header {
     transition: all 0.3s ease;
 }
 
-/* =========================================
+/* 
    4. HERO
-   ========================================= */
+*/
 #hero {
     height: 100vh;
     display: flex;
@@ -140,9 +140,9 @@ header {
     background: var(--primary-dark);
 }
 
-/* =========================================
+/*
    5. PRODUCTS
-   ========================================= */
+*/
 #products {
     padding: 100px 0;
 }
@@ -173,7 +173,7 @@ header {
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-/* Prevent image shaking */
+/* images where shaking */
 .img-container {
     aspect-ratio: 1 / 1;
     background: var(--gray);
@@ -194,9 +194,9 @@ header {
     opacity: 1;
 }
 
-/* =========================================
+/* 
    6. FORM & COOKIES
-   ========================================= */
+ */
 #contact-form {
     max-width: 500px;
     margin: auto;
@@ -233,13 +233,13 @@ input, textarea {
     z-index: 2000;
 }
 
-/* =========================================
+/* 
    7. RESPONSIVE
-   ========================================= */
+*/
 @media (max-width: 768px) {
 
     .burger {
-        display: flex; /* show burger */
+        display: flex; 
     }
 
     .nav-links {

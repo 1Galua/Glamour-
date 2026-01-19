@@ -6,7 +6,7 @@ burger.addEventListener('click', () => {
     nav.classList.toggle('nav-active');
 });
 
-// 2. LocalStorage (Requirement)
+// 2. LocalStorage 
 const cookieBanner = document.getElementById('cookie-notice');
 const acceptBtn = document.getElementById('accept-cookies');
 
@@ -21,7 +21,7 @@ acceptBtn.onclick = () => {
     cookieBanner.style.display = 'none';
 };
 
-// 3. Simple Header Shadow (Requirement: Scroll Logic)
+// 3.  Header Shadow (Scroll Logic)
 window.onscroll = () => {
     const header = document.querySelector('header');
     if (window.scrollY > 50) {
