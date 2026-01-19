@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamour Cosmetics | Luxury Beauty</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="cookie-notice" class="cookie-banner">
+        <p>We use cookies to enhance your experience. 
+            <button id="accept-cookies">Accept</button>
+        </p>
+    </div>
+
+    <header id="main-header">
+        <div class="container nav-container">
+            <h1 class="logo">GLAMOUR</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#blog">Tips</a></li>
+                    <li><a href="#contact">Join Us</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container hero-content">
+            <h2>Discover Your Glow</h2>
+            <p>Premium makeup curated for your unique style.</p>
+            <a href="#products" class="btn">Shop Collection</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <p>Glamour Cosmetics brings you high-quality makeup products with professional tutorials. We believe beauty is personal, expressive, and fun!</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2 class="section-title">Our Favorites</h2>
+            <div id="product-list" class="product-grid">
+                </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <h2 class="section-title">Beauty Tips</h2>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <h3>Makeup Basics</h3>
+                    <p>Master the essentials of foundation and setting techniques.</p>
+                </div>
+                <div class="blog-card">
+                    <h3>Glow Up</h3>
+                    <p>Enhance your features with our highlighting professional tips.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact & Register</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+                
+                <div class="password-wrapper">
+                    <input type="password" id="password" placeholder="Create Password" required>
+                    <span id="toggle-password">👁️</span>
+                </div>
+
+                <textarea id="message" placeholder="How can we help you?" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Glamour Cosmetics. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
